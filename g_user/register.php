@@ -82,7 +82,10 @@ if (isset($_POST['studentNumber'])){
             <button type="submit" class="btn btn-primary btn-block">Submit</button>
           </div>
         </div>
-
+        
+      <div>
+        <p> <p>
+      </div>
       </form>
       <?php if (isset($_SESSION['failed'])): ?>
       <div class="alert alert-danger alert-dismissible">
